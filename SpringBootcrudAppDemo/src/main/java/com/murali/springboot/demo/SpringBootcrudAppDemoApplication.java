@@ -1,17 +1,18 @@
-package com.springboot;
+package com.murali.springboot.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * @author:Sanapala Muralidharan
- * @date:Jul 11, 2021 12:21:46 PM
+ * @date:Jul 17, 2021 7:55:53 PM
  * @version:2.x
  */
 @SpringBootApplication
-public class SpringbootcrudDemoApplication {
+public class SpringBootcrudAppDemoApplication {
 
     public static void main(String[] args) {
-	SpringApplication.run(SpringbootcrudDemoApplication.class, args);
+	SpringApplication.run(SpringBootcrudAppDemoApplication.class, args);
     }
+
 }

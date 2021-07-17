@@ -1,10 +1,10 @@
-package com.murali.springboot;
+package com.murali.springboot.demo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringbootcrudDemoApplicationTests {
+class SpringBootcrudAppDemoApplicationTests {
 
 	@Test
 	void contextLoads() {

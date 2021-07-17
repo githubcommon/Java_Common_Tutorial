@@ -1,4 +1,4 @@
-package com.springboot.entity;
+package com.murali.springboot.demo.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -11,14 +11,14 @@ import lombok.NoArgsConstructor;
 
 /**
  * @author:Sanapala Muralidharan
- * @date:Jul 11, 2021 12:28:57 PM
+ * @date:Jul 17, 2021 7:58:05 PM
  * @version:2.x
  */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Table(name="PRODUCT_TBL")
+@Table(name = "PRODUCT_TBL")
 public class Product {
     @Id
     @GeneratedValue

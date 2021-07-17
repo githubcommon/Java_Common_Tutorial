@@ -1,4 +1,4 @@
-package com.springboot.controller;
+package com.murali.springboot.demo.controller;
 
 import java.util.List;
 
@@ -11,17 +11,16 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.springboot.entity.Product;
-import com.springboot.service.ProductService;
+import com.murali.springboot.demo.entity.Product;
+import com.murali.springboot.demo.service.ProductService;
 
 /**
  * @author:Sanapala Muralidharan
- * @date:Jul 11, 2021 1:16:45 PM
+ * @date:Jul 17, 2021 8:00:57 PM
  * @version:2.x
  */
 @RestController
 public class ProductController {
-
     @Autowired
     private ProductService service;
 
@@ -59,4 +58,5 @@ public class ProductController {
     public String deleteProduct(@PathVariable int id) {
 	return service.deleteProduct(id);
     }
+
 }

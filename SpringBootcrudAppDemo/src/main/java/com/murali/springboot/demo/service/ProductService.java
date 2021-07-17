@@ -1,21 +1,20 @@
-package com.springboot.service;
+package com.murali.springboot.demo.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.springboot.entity.Product;
-import com.springboot.repository.ProductRepository;
+import com.murali.springboot.demo.entity.Product;
+import com.murali.springboot.demo.repository.ProductRepository;
 
 /**
  * @author:Sanapala Muralidharan
- * @date:Jul 11, 2021 1:00:43 PM
+ * @date:Jul 17, 2021 8:01:34 PM  
  * @version:2.x
  */
 @Service
 public class ProductService {
-
     @Autowired
     private ProductRepository repository;
 
